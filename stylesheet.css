@@ -1,0 +1,120 @@
+/* Background Image */
+body {
+    background-image:url(https://i.ibb.co/q1rYLVm/pexels-photo-2033987.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+       
+}
+.container-fluid {
+    padding-left: 0px;
+    padding-right: 0px;
+
+
+}
+#contactDiv{
+    width: 145px;
+
+}
+#portfolioDiv{
+    width: 160px;
+}
+#aboutmeDiv{
+    width: 188px;
+}
+
+
+.link1{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+
+
+}
+/* Used to resize images */
+.imgsz{
+    width: 265px;
+    height: 273px;
+
+}
+
+
+.row2 {
+    margin-bottom: 50px;
+
+}
+
+.ul {
+    border-bottom: solid;
+    border-color: gray;
+    padding-bottom: 64px;
+}
+.ml {
+    margin-left: 20px;
+}
+/* Edits size of text per class assigned */
+.lgtx {
+    font-size: large;
+}
+.lgtx-2 {
+    font-size: 25px;
+    font-weight: bold;
+    font-size-adjust: 1;
+}
+.padding {
+    margin-top: 100px;
+
+}
+/* Adjusts size of form boxes */
+.contact {
+    margin-bottom: 200px;
+    width: 300px;
+    
+
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+}    
+/* Adjusts button position */
+.button {
+    margin-left: 100px;
+
+
+}
+/* Message box size */
+.size {
+    margin-top: 100px;
+}
+
+@media only screen and (max-width:450px){
+    /* For phones */
+    .container, .navbar, .white-box, .ul, .container-fluid,    {
+        font-weight: bold;
+        border: 0px;
+        margin-bottom: -38px;
+        
+    }
+ /*Used to fine tune images on small displays  */
+@media only screen and (max-width:450px){
+        .smimg                    {
+            width: 170px;
+            height: 300px;
+
+}
+/* Makes card dissapear at smaller display */
+@media only screen and (max-width:450px){
+    #bgTrans                  {
+        background-color: transparent;
+        border-color: transparent;
+
+}
+@media only screen and (max-width:450px){
+    #posTrans                    {
+         padding: 0.25rem;
+
+
+
+}
