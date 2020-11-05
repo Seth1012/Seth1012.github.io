@@ -10,7 +10,7 @@ interests.
 The page(s) are responsive and will adapt to the users size of screen.
 
 ## Images
-![Screenshot01](../sethglenn.github.io/example1.png)
+![Screenshot01](./photos/example1.png)
 
 ## Links
 
